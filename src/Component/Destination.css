@@ -1,0 +1,85 @@
+.destination{
+    margin: 4rem 6rem;
+}
+.destination h1{
+    font-size: 3rem;
+}
+
+.firstdes{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    gap: 20px;
+
+}
+.firstdes-reverse{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    gap: 20px;
+}
+.destext{
+     padding-bottom: 1rem;
+     width: 50%;
+     text-align: start;
+     font-size: 1.1rem;
+     text-align: justify;
+
+}
+.destext h2{
+    padding-bottom: 1rem;
+
+}
+.imag{
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.imag img{
+    width: 49%;
+    height: 350px;
+    object-fit: 4px;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgb(0, 0, 0,0.19);
+}
+
+.imag img:nth-child(2){
+    position:absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .destination{
+        margin: 4rem 6rem;
+    }
+    .firstdes{
+        display: flex;
+        flex-direction: column-reverse ;
+        margin-top: 2.5rem;
+    }
+    .firstdes-reverse{
+        display: flex;
+        flex-direction: column-reverse ;
+        margin-top: 4.5rem;
+    }
+    .destext{
+        width: 100%;
+
+    }
+    .imag{
+        width:100%;
+        margin: 1.8rm 0;
+    }
+    .imag img{
+        height: 250px;
+    }
+
+}

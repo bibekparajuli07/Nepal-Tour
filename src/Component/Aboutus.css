@@ -1,0 +1,45 @@
+.container {
+  
+    padding: 20px;
+    text-align:center;
+  }
+  
+  .container img {
+     width: 1220px;
+    height: auto;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  
+  .content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+   
+  }
+  
+  .content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: justify;
+  }
+  .content{
+    padding: 5%;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .container h1 {
+      font-size: 1.5em;
+    }
+  
+    .container p {
+      font-size: 1em;
+    }
+  }
+  
